@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    background-color: #C3DBD9;
+}
+
+/* font-family: 'Merriweather', serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive; */
+
+.intro{
+    padding: 0;
+    text-align: center;
+    background-color: #332C39;
+    border-radius: 8px;
+    height: 4rem;
+    padding: 1% 0%;
+}
+.intro h1{
+    /* padding:; */
+    margin: 0%;
+    color: #FAC213;
+    font-size: 3rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 900;
+}
+
+.box-el{
+    background-image: url(/images/back.jpg);
+    background-size: cover;
+    border: solid 1rem #332C39;
+    border-radius: 8px;
+    width: 60%;
+    margin: 0% 20%;
+    margin-top: 1%;
+    padding-bottom: 3%;
+}
+.firstLevel p{
+    text-align: center;
+    text-align: center;
+    font-size: 2.8rem;
+    color: antiquewhite;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+#notify-el{
+    text-align: center;
+    font-size: 2.8rem;
+    color: antiquewhite;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+#display-area{
+    display: flex;
+    justify-content: center;
+    margin-left: 45%;
+}
+#cards-el{
+    /* justify-content: flex-end; */
+    font-size: 2rem;
+    color: white;
+    font-weight: 900;
+    /* margin-left: 14rem; */
+
+    
+}
+
+.display-card{
+    width: 4rem;
+    /* padding-left: 17vw; */
+}
+
+
+
+#sum-el{
+    position:relative;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    font-weight: 900;
+}
+
+.newDraw{
+    text-align: center;
+}
+.draw-cardBtn{
+    font-size: 1.8rem;
+    color: aliceblue;
+    background-color: green;
+    border: none;
+    border-radius: 3px;
+}
+.draw-cardBtn:active{
+    background-color: rgb(15, 46, 15);
+    transform: translateZ(4px);
+}
+.startGame{
+    text-align: center;
+    margin-top: 2%;
+}
+#game-Btn{
+    font-size: 2rem;
+    color: #205E61;
+    background-color: #FAC213;
+    border: none;
+    border-radius: 3px;
+    
+}
+#game-Btn:active {
+    background-color: #F2CD5C;
+    transform: translateZ(4px);
+  }
